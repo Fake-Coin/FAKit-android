@@ -265,20 +265,20 @@ public class FragmentRequestAmount extends Fragment {
             }
         });
 
-        isoButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (selectedIso.equalsIgnoreCase(BRSharedPrefs.getIso(getContext()))) {
-                    selectedIso = "BTC";
-                } else {
-                    selectedIso = BRSharedPrefs.getIso(getContext());
-                }
-                boolean generated = generateQrImage(receiveAddress, amountEdit.getText().toString(), selectedIso);
-                if (!generated)
-                    throw new RuntimeException("failed to generate qr image for address");
-                updateText();
-            }
-        });
+        // isoButton.setOnClickListener(new View.OnClickListener() {
+        //     @Override
+        //     public void onClick(View v) {
+        //         if (selectedIso.equalsIgnoreCase(BRSharedPrefs.getIso(getContext()))) {
+        //             selectedIso = "BTC";
+        //         } else {
+        //             selectedIso = BRSharedPrefs.getIso(getContext());
+        //         }
+        //         boolean generated = generateQrImage(receiveAddress, amountEdit.getText().toString(), selectedIso);
+        //         if (!generated)
+        //             throw new RuntimeException("failed to generate qr image for address");
+        //         updateText();
+        //     }
+        // });
 
     }
 

@@ -366,18 +366,18 @@ public class FragmentSend extends Fragment {
             }
         });
 
-        isoButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (selectedIso.equalsIgnoreCase(BRSharedPrefs.getIso(getContext()))) {
-                    selectedIso = "BTC";
-                } else {
-                    selectedIso = BRSharedPrefs.getIso(getContext());
-                }
-                updateText();
-
-            }
-        });
+        // isoButton.setOnClickListener(new View.OnClickListener() {
+        //     @Override
+        //     public void onClick(View v) {
+        //         if (selectedIso.equalsIgnoreCase(BRSharedPrefs.getIso(getContext()))) {
+        //             selectedIso = "BTC";
+        //         } else {
+        //             selectedIso = BRSharedPrefs.getIso(getContext());
+        //         }
+        //         updateText();
+        //
+        //     }
+        // });
 
         scan.setOnClickListener(new View.OnClickListener() {
             @Override
