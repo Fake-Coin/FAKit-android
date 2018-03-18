@@ -109,8 +109,8 @@ public class BRConstants {
     public static final int CURRENT_UNIT_MBITS = 1;
     public static final int CURRENT_UNIT_BITCOINS = 2;
 
-    public static final String bitcoinLowercase = "\u0066";
-    public static final String bitcoinUppercase = "\u0046";
+    public static final String bitcoinLowercase = "\u0192";
+    public static final String bitcoinUppercase = "\ud835\ude41";
 
     public static final long PASS_CODE_TIME_LIMIT = TimeUnit.MILLISECONDS.convert(6, TimeUnit.DAYS);
 
