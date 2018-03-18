@@ -370,8 +370,9 @@ public class BRSharedPrefs {
     }
 
     public static int getCurrencyUnit(Context context) {
-        SharedPreferences settingsToGet = context.getSharedPreferences(BRConstants.PREFS_NAME, 0);
-        return settingsToGet.getInt(BRConstants.CURRENT_UNIT, BRConstants.CURRENT_UNIT_BITS);
+        return BRConstants.CURRENT_UNIT_BITCOINS;
+        // SharedPreferences settingsToGet = context.getSharedPreferences(BRConstants.PREFS_NAME, 0);
+        // return settingsToGet.getInt(BRConstants.CURRENT_UNIT, BRConstants.CURRENT_UNIT_BITS);
     }
 
     public static void putCurrencyUnit(Context context, int unit) {
