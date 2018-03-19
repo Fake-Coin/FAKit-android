@@ -85,7 +85,7 @@
   <!-- Approve button label -->
   <string name="BitID.approve">Approve</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s is requesting authentication using your bitcoin wallet</string>
+  <string name="BitID.authenticationRequest">%1$s is requesting authentication using your FakeCoin wallet</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Deny</string>
   <!-- BitID error alert title -->
@@ -277,7 +277,7 @@
   <!-- Amount too small error message -->
   <string name="PaymentProtocol.Errors.smallPayment">FakeCoin payments can\'t be less than %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Bitcoin transaction outputs can\'t be less than %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">FakeCoin transaction outputs can\'t be less than %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">unsupported signature type</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -381,7 +381,7 @@
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Start Sync</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">You will not be able to send money while syncing with the blockchain.</string>
+  <string name="ReScan.footer">You will not be able to send money while syncing with the Diamondchain.</string>
   <!-- Sync Blockchain view header -->
   <string name="ReScan.header">Sync DiamondChain</string>
   <!-- Subheader label -->
@@ -441,9 +441,9 @@
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">Payee identity isn\'t certified.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">The destination address is not a valid bitcoin address.</string>
+  <string name="Send.invalidAddressMessage">The destination address is not a valid FakeCoin address.</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">Pasteboard does not contain a valid bitcoin address.</string>
+  <string name="Send.invalidAddressOnPasteboard">Pasteboard does not contain a valid FakeCoin address.</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">Invalid Address</string>
   <!-- Is rescanning error message -->
@@ -469,7 +469,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">To</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">FakeCoin addresses are intended for single use only.</string>
+  <string name="Send.UsedAddress.firstLine">FAKit addresses are intended for single use only.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Re-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn\'t directly control the address.</string>
   <!-- Adress already used alert title -->
@@ -631,7 +631,7 @@
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">to %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">Bitcoin Transaction ID</string>
+  <string name="TransactionDetails.txHashHeader">FakeCoin Transaction ID</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Received at this Address</string>
   <!-- (this transaction was) Sent to this address: -->
